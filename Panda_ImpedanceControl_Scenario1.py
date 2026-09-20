@@ -15,7 +15,7 @@ pinocchio_robot = load_pinocchio("panda_description")
 pinocchio_model = pinocchio_robot.model
 pinocchio_data = pinocchio_robot.data
 # ---mujoco model--- #
-mujoco_model = load_mujoco("panda_mj_description")
+mujoco_model = load_mujoco("panda_mj_description_box")
 mujoco_data = mujoco.MjData(mujoco_model)
 
 # === Parametri simulacije === #
@@ -122,7 +122,7 @@ force_addr = mujoco_model.sensor_adr[force_sensor_id]
 torque_addr = mujoco_model.sensor_adr[torque_sensor_id]
 Fext1 = np.zeros(6)
 
-window_size = 50  # broj uzoraka za filtriranje
+window_size = 200  # broj uzoraka za filtriranje
 Fext_window = []  # lista 6D vektora    # lista koja drži poslednjih 'window_size' uzoraka sile
 
 # === Glavna simulacija - tok simulacije === #

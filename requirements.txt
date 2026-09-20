@@ -1,5 +1,8 @@
-pinocchio==3.3.0
-numpy==2.2.6
+# pinocchio (pip pakuje ga pod imenom "pin") nema wheel-ove za Windows na PyPI-ju.
+# Na Windows-u ga instalirati preko conda-e: conda install -c conda-forge pinocchio
+# Na Linux/macOS radi i preko pip-a:
+pin==3.3.1
+numpy==1.26.4
 mujoco==3.3.6
 robot-descriptions==1.21.0
-matplotlib==3.8.1
+matplotlib==3.10.6

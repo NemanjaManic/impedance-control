@@ -1,3 +1,9 @@
+# Licni diplomski rad - ne uploadovati na GitHub
+*.pdf
+
+# Editor (licna podesavanja, ne deliti)
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
