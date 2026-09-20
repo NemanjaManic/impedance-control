@@ -75,9 +75,9 @@ Ispred robota se nalazi objekat (kutija) na čijoj gornjoj površini je definisa
 
 **Snimak simulacije:**
 
-<video src="videos/scenario1.mp4" controls width="500"></video>
+<img src="images/gifs/scenario1.gif" width="500" alt="Snimak simulacije - Scenario 1">
 
-(ako se video ne prikaže — [preuzmi/otvori snimak](videos/scenario1.mp4))
+([preuzmi video u punom kvalitetu](videos/scenario1.mp4))
 
 Impedansni kontroler je podešen preko veze sa sistemom drugog reda:
 
@@ -124,9 +124,9 @@ Drugi scenario prikazuje uticaj različitih izbora parametara kontrolera na dina
 
 **Snimak simulacije:**
 
-<video src="videos/scenario2_slucaj1.mp4" controls width="500"></video>
+<img src="images/gifs/scenario2_slucaj1.gif" width="500" alt="Snimak simulacije - Slucaj 1">
 
-(ako se video ne prikaže — [preuzmi/otvori snimak](videos/scenario2_slucaj1.mp4))
+([preuzmi video u punom kvalitetu](videos/scenario2_slucaj1.mp4))
 
 Veće oscilacije u pozicijama zglobova javljaju se nakon delovanja momenata, što je očekivano zbog meke orijentacije. Sile i momenti izazivaju veće poremećaje u orijentaciji, dok se pozicija menja u veoma malom opsegu.
 
@@ -147,9 +147,9 @@ Veće oscilacije u pozicijama zglobova javljaju se nakon delovanja momenata, št
 
 **Snimak simulacije:**
 
-<video src="videos/scenario2_slucaj2.mp4" controls width="500"></video>
+<img src="images/gifs/scenario2_slucaj2.gif" width="500" alt="Snimak simulacije - Slucaj 2">
 
-(ako se video ne prikaže — [preuzmi/otvori snimak](videos/scenario2_slucaj2.mp4))
+([preuzmi video u punom kvalitetu](videos/scenario2_slucaj2.mp4))
 
 Oscilacije u pozicijama zglobova pri delovanju momenata su manje nego u prvom slučaju. Pozicija se sada primetno menja (skoro 20%) u trenucima delovanja sila i momenata, nešto značajnije po x i y osi.
 
@@ -172,9 +172,9 @@ Ovakva konfiguracija (kruto po orijentaciji i po jednoj osi, meko u ravni) čest
 
 **Snimak simulacije:**
 
-<video src="videos/scenario2_slucaj3.mp4" controls width="500"></video>
+<img src="images/gifs/scenario2_slucaj3.gif" width="500" alt="Snimak simulacije - Slucaj 3">
 
-(ako se video ne prikaže — [preuzmi/otvori snimak](videos/scenario2_slucaj3.mp4))
+([preuzmi video u punom kvalitetu](videos/scenario2_slucaj3.mp4))
 
 Veća nestabilnost u zglobovima izazvana je delovanjem sila po x i y osi. Oscilacije pozicije po z-osi su zanemarljive (potvrđuje stabilnost krute kontrole u tom pravcu), dok su pomaci u x-y ravni izraženiji, što ukazuje na povećanu osetljivost sistema u tim pravcima usled mekše kontrole.
 
