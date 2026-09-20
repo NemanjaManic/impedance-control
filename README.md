@@ -61,6 +61,15 @@ python Panda_ImpedanceControl_Scenario2.py
 
 Implementacija impedansnog upravljanja robota Franka Emika Panda koji će prilagođavati svoje ponašanje u kontaktu sa okolinom. Ovaj rad obuhvata i proučavanja parametara impedanse.
 
+## Medicinske primene
+
+Rad je urađen u okviru studija Biomedicinskog inženjerstva, pa je impedansno upravljanje razmatrano i kroz prizmu primena u medicini i asistivnoj robotici, gde je bezbedan i predvidiv kontakt sa pacijentom ključan zahtev.
+
+* **Kontaktni zadaci u medicini** - Klasični primeri zadataka gde end-effector robota mora da ostvari kontakt sa okolinom (poliranje, zavarivanje, montaža) u medicini imaju svoj analogon u zadacima poput **ubacivanja sonde ili igle**, gde pozicijsko upravljanje nije pouzdano zbog nepoznatih mehaničkih svojstava tkiva, dok impedansno upravljanje omogućava prilagodljiv i bezbedan prodor.
+* **Saradnja čoveka i robota (safe human-robot interaction)** - Raspregnuta impedansa, ostvarena zahvaljujući merenju sile senzorom u ručnom zglobu, posebno je značajna u zadacima kolaborativne robotike. Zbog toga je impedansno upravljanje steklo široku primenu u biomedicinskom inženjerstvu, gde je ključno obezbediti siguran kontakt sa pacijentima i njihovom okolinom.
+* **Robotska rehabilitacija** - Impedansno upravljanje se koristi za rehabilitaciju gornjih ekstremiteta kod pacijenata sa neuromotornim deficitom, kao i u ROS-baziranim rehabilitacionim sistemima zasnovanim na principu "assist-as-needed" (robot pomaže pacijentu samo onoliko koliko je neophodno, ostavljajući mu prostor da sâm ostvari pokret).
+* **Hirurška navigacija** - Treći slučaj drugog scenarija (kruta orijentacija i z-pozicija, meka pozicija u x-y ravni) direktno oslikava konfiguraciju koja se koristi kod robota za navigaciju u hirurgiji, gde hirurg vodi instrument u unapred definisanoj ravni uz stabilan i kontrolisan rez - kruto upravljanje obezbeđuje preciznost duž ose reza, dok mekša kontrola u ravni dozvoljava prirodnije, bezbednije vođenje instrumenta.
+
 ## Rezultati i diskusija
 
 U ovom poglavlju su prikazani rezultati impedansnog upravljanja robotom za dva različita scenarija, kako bi se ocenila pouzdanost i prilagodljivost predloženog kontrolera u različitim uslovima rada.
